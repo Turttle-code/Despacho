@@ -1,4 +1,150 @@
 <!DOCTYPE html>
-<html lang="es-MX">
+<html lang="es" class="scroll-smooth">
 <head>
-  <meta charset="UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Despacho Jurídico | Soluciones Legales e Innovación</title>
+    <!-- Tailwind CSS desde CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Fuentes de Google: Playfair Display (Elegante) e Inter (Limpia) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+    
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        .font-serif { font-family: 'Playfair Display', serif; }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800 antialiased">
+
+    <!-- MENÚ DE NAVEGACIÓN -->
+    <nav class="sticky top-0 z-50 bg-white/90 backdrop-blur-md border-b border-slate-200">
+        <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+            <div class="flex items-center space-x-2">
+                <!-- Reemplaza con tu logotipo o nombre comercial -->
+                <span class="font-serif text-2xl font-bold tracking-wide text-slate-900">VALDIVIA GÓMEZ</span>
+                <span class="text-xs bg-slate-900 text-amber-400 px-2 py-0.5 rounded font-mono tracking-widest uppercase">Asesores</span>
+            </div>
+            <div class="hidden md:flex items-center space-x-8 text-sm font-medium text-slate-600">
+                <a href="#inicio" class="hover:text-slate-900 transition">Inicio</a>
+                <a href="#especialidades" class="hover:text-slate-900 transition">Especialidades</a>
+                <a href="#innovacion" class="hover:text-slate-900 transition">Tecnología Legal</a>
+                <a href="#contacto" class="hover:text-slate-900 transition">Contacto</a>
+                <!-- VÍNCULO A TU APP -->
+                <a href="TU_URL_DE_RENDER_AQUÍ" target="_blank" class="bg-amber-500 hover:bg-amber-600 text-slate-950 px-4 py-2 rounded-md font-semibold shadow-sm transition">
+                    Acceso OneraLex
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- SECCIÓN HERO (INICIO) -->
+    <section id="inicio" class="relative min-h-[85vh] flex items-center bg-slate-900 text-white overflow-hidden">
+        <!-- Fondo sutil decorativo -->
+        <div class="absolute inset-0 opacity-20 bg-[radial-gradient(#e2e8f0_1px,transparent_1px)] [background-size:16px_16px]"></div>
+        <div class="max-w-5xl mx-auto px-6 py-20 relative z-10 text-center md:text-left md:flex items-center justify-between gap-12">
+            <div class="max-w-2xl">
+                <h1 class="font-serif text-4xl md:text-6xl font-semibold tracking-tight leading-tight mb-6">
+                    Estrategia jurídica con claridad, rigor e <span class="italic text-amber-400">innovación</span>.
+                </h1>
+                <p class="text-lg text-slate-300 font-light mb-8 max-w-xl leading-relaxed">
+                    Ofrecemos soluciones legales integrales con un enfoque moderno. Protegemos sus derechos laborales y fiscales mediante un servicio ético, personalizado y respaldado por herramientas tecnológicas de vanguardia.
+                </p>
+                <div class="flex flex-col sm:flex-row justify-center md:justify-start gap-4">
+                    <a href="#contacto" class="bg-white text-slate-900 hover:bg-slate-100 px-6 py-3 rounded-md font-medium text-center shadow-md transition">
+                        Agendar Consulta
+                    </a>
+                    <!-- BOTÓN CLAVE DE LA APP -->
+                    <a href="TU_URL_DE_RENDER_AQUÍ" target="_blank" class="border border-slate-700 bg-slate-800/50 hover:bg-slate-800 text-amber-400 px-6 py-3 rounded-md font-medium text-center transition flex items-center justify-center gap-2">
+                        <span>Calcule su Finiquito en Línea</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" /></svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN ÁREAS DE ESPECIALIDAD -->
+    <section id="especialidades" class="py-24 max-w-7xl mx-auto px-6">
+        <div class="text-center max-w-2xl mx-auto mb-16">
+            <h2 class="font-serif text-3xl md:text-4xl font-bold text-slate-900 mb-4">Áreas de Práctica</h2>
+            <p class="text-slate-600">Representación legal sólida y consultoría estratégica especializada en proteger la estabilidad jurídica y económica de nuestros clientes.</p>
+        </div>
+        
+        <div class="grid md:grid-cols-3 gap-8">
+            <!-- Tarjeta 1: Laboral -->
+            <div class="bg-white p-8 rounded-xl border border-slate-200/80 shadow-sm hover:shadow-md transition">
+                <div class="w-12 h-12 bg-amber-50 rounded-lg flex items-center justify-center text-amber-600 font-serif font-bold text-xl mb-6">01</div>
+                <h3 class="font-serif text-xl font-semibold text-slate-900 mb-3">Derecho Laboral</h3>
+                <p class="text-sm text-slate-600 leading-relaxed">Defensa ante despidos injustificados, asesoría en esquemas de subcontratación y litigio estratégico en instancias federales y locales.</p>
+            </div>
+            <!-- Tarjeta 2: Fiscal -->
+            <div class="bg-white p-8 rounded-xl border border-slate-200/80 shadow-sm hover:shadow-md transition">
+                <div class="w-12 h-12 bg-amber-50 rounded-lg flex items-center justify-center text-amber-600 font-serif font-bold text-xl mb-6">02</div>
+                <h3 class="font-serif text-xl font-semibold text-slate-900 mb-3">Defensa y Asesoría Fiscal</h3>
+                <p class="text-sm text-slate-600 leading-relaxed">Recuperación y gestión de saldos a favor históricos ante el SAT, planeación fiscal para personas físicas y medios de defensa administrativa.</p>
+            </div>
+            <!-- Tarjeta 3: Consultoría -->
+            <div class="bg-white p-8 rounded-xl border border-slate-200/80 shadow-sm hover:shadow-md transition">
+                <div class="w-12 h-12 bg-amber-50 rounded-lg flex items-center justify-center text-amber-600 font-serif font-bold text-xl mb-6">03</div>
+                <h3 class="font-serif text-xl font-semibold text-slate-900 mb-3">Consultoría Corporativa</h3>
+                <p class="text-sm text-slate-600 leading-relaxed">Prevención de riesgos legales para empresas y negocios mediante auditorías de contratos y cumplimiento de normativas vigentes.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN DE INNOVACIÓN / VÍNCULO APP -->
+    <section id="innovacion" class="bg-slate-100 py-20 border-y border-slate-200">
+        <div class="max-w-5xl mx-auto px-6 text-center">
+            <span class="text-xs font-semibold tracking-widest text-amber-600 uppercase block mb-3">LegalTech</span>
+            <h2 class="font-serif text-3xl md:text-4xl font-bold text-slate-900 mb-6">Automatización a su Servicio</h2>
+            <p class="text-slate-600 max-w-2xl mx-auto mb-10 leading-relaxed">
+                Creemos que el acceso a la justicia debe ser eficiente. Ponemos a disposición de nuestros clientes la plataforma <strong class="text-slate-900 font-medium">OneraLex</strong>, nuestro cotizador automatizado diseñado para calcular prestaciones, finiquitos e impuestos bajo la legislación mexicana vigente con total precisión.
+            </p>
+            <a href="TU_URL_DE_RENDER_AQUÍ" target="_blank" class="inline-flex items-center gap-2 bg-slate-900 hover:bg-slate-800 text-white font-medium px-8 py-4 rounded-md shadow-lg transition">
+                <span>Ingresar a la Plataforma Digital</span>
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-amber-400" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M11 3a1 1 0 10-2 0v1a1 1 0 102 0V3zM5.879 4.464a1 1 0 00-1.414 1.414l.707.707a1 1 0 001.414-1.414l-.707-.707zM18 10a1 1 0 11-2 0v-1a1 1 0 112 0v1zM13.414 15.121a1 1 0 10-1.414-1.414l-.707.707a1 1 0 101.414 1.414l.707-.707zM10 16a1 1 0 110 2h-1a1 1 0 110-2h1zM4.464 13.414a1 1 0 101.414-1.414l-.707-.707a1 1 0 10-1.414 1.414l.707.707zM3 10a1 1 0 110-2h1a1 1 0 110 2H3zM15.121 5.879a1 1 0 00-1.414-1.414l-.707.707a1 1 0 001.414 1.414l.707-.707z" clip-rule="evenodd" /></svg>
+            </a>
+        </div>
+    </section>
+
+    <!-- SECCIÓN CONTACTO -->
+    <section id="contacto" class="py-24 max-w-4xl mx-auto px-6">
+        <div class="text-center mb-12">
+            <h2 class="font-serif text-3xl font-bold text-slate-900 mb-4">Inicie su Consulta</h2>
+            <p class="text-slate-600">Escríbanos detallando su situación y un especialista se pondrá en contacto a la brevedad.</p>
+        </div>
+        
+        <form class="space-y-6 bg-white p-8 rounded-xl border border-slate-200 shadow-sm">
+            <div class="grid md:grid-cols-2 gap-6">
+                <div>
+                    <label class="block text-xs font-semibold text-slate-600 uppercase tracking-wider mb-2">Nombre Completo</label>
+                    <input type="text" required class="w-full bg-slate-50 border border-slate-200 rounded-md px-4 py-3 text-sm focus:outline-none focus:border-slate-400 transition">
+                </div>
+                <div>
+                    <label class="block text-xs font-semibold text-slate-600 uppercase tracking-wider mb-2">Correo Electrónico</label>
+                    <input type="email" required class="w-full bg-slate-50 border border-slate-200 rounded-md px-4 py-3 text-sm focus:outline-none focus:border-slate-400 transition">
+                </div>
+            </div>
+            <div>
+                <label class="block text-xs font-semibold text-slate-600 uppercase tracking-wider mb-2">Asunto o Materia</label>
+                <input type="text" required class="w-full bg-slate-50 border border-slate-200 rounded-md px-4 py-3 text-sm focus:outline-none focus:border-slate-400 transition">
+            </div>
+            <div>
+                <label class="block text-xs font-semibold text-slate-600 uppercase tracking-wider mb-2">Descripción breve de su caso</label>
+                <textarea rows="4" required class="w-full bg-slate-50 border border-slate-200 rounded-md px-4 py-3 text-sm focus:outline-none focus:border-slate-400 transition resize-none"></textarea>
+            </div>
+            <button type="submit" class="w-full bg-slate-900 hover:bg-slate-800 text-white font-medium py-3 rounded-md shadow transition">
+                Enviar Mensaje
+            </button>
+        </form>
+    </section>
+
+    <!-- PIE DE PÁGINA -->
+    <footer class="bg-slate-900 text-slate-400 py-12 text-center text-sm border-t border-slate-800">
+        <p>&copy; 2026 Valdivia Gómez Asesores. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
